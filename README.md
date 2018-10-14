@@ -47,3 +47,25 @@ vi .docker/vhosts.conf
 vi docker-compose.yml
 
 ```
+
+## Accessing the container via bash shell
+
+1. run `docker ps` to get the names of your running containers.
+2. run the following command to shell into the container:
+
+```
+docker exec -it d76d3fc85182 bash
+```
+
+## Run PHPUnit 
+
+1. Shell into the container (see previous point)
+2. Add phpunit to your `composer.json` and install
+3. run PHPUnit from the `vendor/bin` folder:
+
+
+```bash
+vendor/bin/phpunit
+```
+
+
