@@ -50,7 +50,8 @@ vi docker-compose.yml
 
 ## Accessing the container via bash shell
 
-1. run `docker ps` to get the names of your running containers.
+1. run `docker ps` to get the names of your running containers.  eg:
+`d76d3fc85182`
 2. run the following command to shell into the container:
 
 ```
