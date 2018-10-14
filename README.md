@@ -20,7 +20,7 @@ Your folder structure should look like this:
 
 ```
 
-docker_setup
+this_folder
     - .docker
         Dockerfile
         vhosts.conf
